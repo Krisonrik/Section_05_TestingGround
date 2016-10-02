@@ -6,6 +6,7 @@
 #include "ChooseNextWaypoint.generated.h"
 
 class APatrollingGuard;
+class UPatrolRouteComponent;
 /**
  * 
  */
@@ -26,6 +27,7 @@ protected:
 
 private:
 
-	APatrollingGuard* patrolGuard;
+	APatrollingGuard* patrolGuard = nullptr;
 
+	UPatrolRouteComponent* patrolRoute = nullptr;
 };
