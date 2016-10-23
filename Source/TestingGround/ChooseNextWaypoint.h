@@ -5,7 +5,6 @@
 #include "BehaviorTree/BTTaskNode.h"
 #include "ChooseNextWaypoint.generated.h"
 
-class APatrollingGuard;
 class UPatrolRouteComponent;
 /**
  * 
@@ -26,8 +25,6 @@ protected:
 	struct FBlackboardKeySelector waypoint;
 
 private:
-
-	APatrollingGuard* patrolGuard = nullptr;
 
 	UPatrolRouteComponent* patrolRoute = nullptr;
 };

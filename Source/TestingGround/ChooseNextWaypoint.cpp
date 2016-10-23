@@ -3,7 +3,6 @@
 #include "TestingGround.h"
 #include "ChooseNextWaypoint.h"
 #include "BehaviorTree/BlackboardComponent.h"
-#include "TP_ThirdPerson/PatrollingGuard.h"
 #include "AIController.h"
 #include "PatrolRouteComponent.h"
 
